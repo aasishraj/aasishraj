@@ -24,7 +24,7 @@ jobs:
         with:
           username: ${{ github.repository_owner }}
           theme: darkhub
-          output_path: profile/trophy.svg
+          file: profile/trophy.svg
           token: ${{ secrets.STATS_PAT }}
 
       - name: Commit cards
